@@ -1,0 +1,6 @@
+[submodule "IRTank-Android"]
+	path = IRTank-Android
+	url = https://github.com/xeno14/IRTank-Android
+[submodule "IRTank-Arduino"]
+	path = IRTank-Arduino
+	url = https://github.com/xeno14/IRTank-Arduino
