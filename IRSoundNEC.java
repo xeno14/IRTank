@@ -39,10 +39,8 @@ class IRSoundNEC {
     one_space_buf  = new byte[(int)(ONE_SPACE  * STEREO * WAVE_BYTES * SAMPLE_RATE / 1e6)];  // always 0
     zero_space_buf = new byte[(int)(ZERO_SPACE * STEREO * WAVE_BYTES * SAMPLE_RATE / 1e6)];  // always 0
 
-    // 使用する最大サイズを確保しておく 
-    // TODO 108ms分の大きさを確保
-    buffer = new byte[hdr_mark_arr.length + hdr_space_arr.length +
-      (bit_mark_arr.length + Math.max(one_space_buf.length, zero_space_buf.length)) * BITS];
+    // 108ms分の大きさを確保
+    buffer = new byte[WAVE_BYTES * STEREO * SAMPLE_RATE * 108 / 1000];
 
     // LEDを点灯させる部分に波形を設定
     fillWave(hdr_mark_arr, hdr_mark_arr.length);
