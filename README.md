@@ -7,10 +7,10 @@ IRTank
 C91頒布「日曜プログラマでもできる！ラジコン＆パンツアー」の
 ソースコード。
 
-## [Android](https://github.com/xeno14/IRTank-Android)
+## [IRTank-Android](https://github.com/xeno14/IRTank-Android)
 操作用のAndroidアプリ。
 
-## [Arduino](https://github.com/xeno14/IRTank-Arduino)
+## [IRTank-Arduino](https://github.com/xeno14/IRTank-Arduino)
 Arduinoスケッチ。
 
 ## 回路図
