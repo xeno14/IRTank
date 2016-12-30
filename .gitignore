@@ -1,0 +1,7 @@
+*.wav
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
